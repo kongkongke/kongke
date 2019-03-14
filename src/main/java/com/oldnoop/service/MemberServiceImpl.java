@@ -56,7 +56,7 @@ public class MemberServiceImpl extends BaseService<Member> {
 		member.setUsername(username);
 		member.setCreateTime(new Date());
 		memberMapper.insertSelective(member);
-		// 将用户名及id添加到数据库member_account表
+		// 将用户名及id添加到数据库member_account 表
 		Long id = member.getId();
 		MemberAccount memberAccount = new MemberAccount();
 		memberAccount.setMid(id);
