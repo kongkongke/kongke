@@ -23,6 +23,7 @@ import com.oldnoop.service.MemberServiceImpl;
 @RequestMapping("/member")
 public class MemberController {
 
+	
 	@Autowired
 	private MemberServiceImpl memberService;
 	@Autowired
