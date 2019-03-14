@@ -40,6 +40,7 @@ public class MemberController {
 		return "member/register";
 	}
 
+
 	/**
 	 * 注册，将用户名及密码添加到数据库
 	 * 
